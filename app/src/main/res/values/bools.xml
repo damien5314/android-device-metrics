@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <bool name="screen_ldpi">false</bool>
+  <bool name="screen_mdpi">false</bool>
+  <bool name="screen_hdpi">false</bool>
+  <bool name="screen_xhdpi">false</bool>
+  <bool name="screen_xxhdpi">false</bool>
+  <bool name="screen_xxxhdpi">false</bool>
+</resources>

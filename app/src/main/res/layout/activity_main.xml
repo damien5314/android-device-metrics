@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+  <LinearLayout
+      android:id="@+id/activity_main"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_margin="16dp"
+      android:orientation="vertical"
+      android:showDividers="middle"
+      android:divider="@drawable/spacer_16dp_horizontal"
+      tools:context="ddiehl.android.metrics.MainActivity">
+
+    <LinearLayout
+        style="@style/Row">
+
+      <TextView
+          style="@style/Label"
+          android:text="@string/android_version"/>
+
+      <TextView
+          style="@style/Value"
+          android:id="@+id/android_version"
+          tools:text="Lollipop (21)"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Row">
+
+      <TextView
+          style="@style/Label"
+          android:text="@string/size"/>
+
+      <TextView
+          style="@style/Value"
+          android:id="@+id/size"
+          tools:text="large"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Row">
+
+      <TextView
+          style="@style/Label"
+          android:text="@string/density_bucket"/>
+
+      <TextView
+          style="@style/Value"
+          android:id="@+id/density_bucket"
+          tools:text="xxhdpi"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Row">
+
+      <TextView
+          style="@style/Label"
+          android:text="@string/screen_width"/>
+
+      <TextView
+          style="@style/Value"
+          android:id="@+id/width_px"
+          tools:text="1080"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Row">
+
+      <TextView
+          style="@style/Label"
+          android:text="@string/screen_height"/>
+
+      <TextView
+          style="@style/Value"
+          android:id="@+id/height_px"
+          tools:text="1920"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Row">
+
+      <TextView
+          style="@style/Label"
+          android:text="@string/scaled_density"/>
+
+      <TextView
+          style="@style/Value"
+          android:id="@+id/scaled_density"
+          tools:text="1.5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Row">
+
+      <TextView
+          style="@style/Label"
+          android:text="@string/density_dpi"/>
+
+      <TextView
+          style="@style/Value"
+          android:id="@+id/density_dpi"
+          tools:text="240"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Row">
+
+      <TextView
+          style="@style/Label"
+          android:text="@string/xdpi"/>
+
+      <TextView
+          style="@style/Value"
+          android:id="@+id/xdpi"
+          tools:text="217.7"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Row">
+
+      <TextView
+          style="@style/Label"
+          android:text="@string/ydpi"/>
+
+      <TextView
+          style="@style/Value"
+          android:id="@+id/ydpi"
+          tools:text="216.1"/>
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+</ScrollView>

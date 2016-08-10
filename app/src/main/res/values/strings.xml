@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Device Metrics</string>
+    <string name="scaled_density">Scaled Density</string>
+    <string name="screen_width">Screen Width</string>
+    <string name="screen_height">Screen Height</string>
+    <string name="density">Density</string>
+    <string name="density_dpi">Density DPI</string>
+    <string name="xdpi">xDPI</string>
+    <string name="ydpi">yDPI</string>
+    <string name="density_bucket">Density</string>
+    <string name="size">Size</string>
+    <string name="android_version">Android Version</string>
+</resources>
